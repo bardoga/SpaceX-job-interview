@@ -1,6 +1,10 @@
+import { SpaceApp } from './pages/SpaceApp.jsx';
+
 function RootCmp() {
   return (
-    <div className="RootCmp"></div>
+    <div className="RootCmp">
+      <SpaceApp />
+    </div>
   );
 }
 

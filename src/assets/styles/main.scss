@@ -1,2 +1,6 @@
 //PAGES
-@import './pages/App'
+@import './pages/_SpaceApp.scss';
+@import './pages/_App.scss';
+//COMPONENTS
+@import './components/_SpaceList.scss';
+@import './components/_SpacePreview.scss';

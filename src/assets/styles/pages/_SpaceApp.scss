@@ -1,0 +1,28 @@
+.space-app {
+    // background-color: rgb(157, 242, 242);
+    padding: 40px;
+    // position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+    // box-sizing: border-box
+}
+
+.main-app {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-header {
+    margin-bottom: 50px;
+    h1 {
+        text-align: center;
+    }
+}

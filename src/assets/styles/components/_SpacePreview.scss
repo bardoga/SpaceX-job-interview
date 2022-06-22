@@ -1,0 +1,26 @@
+.landing-preview {
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.landing-preview-container {
+    padding: 20px
+}
+
+.preview-text {
+    // height: 50ch;
+    p {
+        // word-wrap: break-word;
+    }
+    .preview-desc {
+        max-height: 130px;
+        // white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // height: 50ch;
+        width: 100px;
+        // font-size: 12px;
+        // color: #8c8c8c;
+    }
+}
