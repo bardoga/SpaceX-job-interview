@@ -2,6 +2,10 @@ import React from "react";
 
 export const LandingPreview = (props) => {
 
+    const onOpenDetails = () => {
+        console.log(landing)
+    }
+
     const landing = props.landing
     return (
         <section className="landing-preview">
@@ -13,7 +17,7 @@ export const LandingPreview = (props) => {
                     <iframe src={"https://www.youtube.com/embed/" + landing.links.youtube_id} frameborder="0"></iframe>
                 </div>
 
-                <div className="preview-text">
+                <div className="preview-text" onClick={() => onOpenDetails(landing)}>
                     <p>{landing.name}</p>
                     <p className="preview-desc">{landing.details}</p>
 
